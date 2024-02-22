@@ -1,0 +1,50 @@
+.main{
+    height: 85vh;
+
+
+    &__firstArticle{
+        height: 100%;
+        display: grid;
+        grid-template-columns: 40% 60%;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__leftSection{
+        height:100%;
+        padding: 2rem;
+  
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    &__firstArticleFigure{
+        height: 25rem;
+    }
+
+    &__firstArticleFigureImg{
+        height: 100%;
+        border-radius: 50%;
+    }
+
+
+
+    &__rightSection{
+  height: 100%;
+  padding: 2rem;
+      
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+       
+    }
+
+
+    &__secondArticle{
+        height: 40vh;
+        background: red;
+    }
+}

@@ -1,45 +1,48 @@
-import { Component } from '@angular/core';
+import { Component, Inject, PLATFORM_ID, AfterViewInit } from '@angular/core';
 import Typewriter from 't-writer.js';
+import { SliderComponent } from '../slider/slider.component';
+import { isPlatformBrowser } from '@angular/common';
 
-
-
-
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [],
+  imports: [SliderComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
-  
+  styleUrls: ['./home.component.scss']
 })
-export class HomeComponent {
+export class HomeComponent implements AfterViewInit {
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) { }
 
-  ngOnInit(): void{
+  ngAfterViewInit(): void {
+    if (isPlatformBrowser(this.platformId)) {
+      setTimeout(() => {
+        const target = document.querySelector('.tw');
+        console.log('Target element:', target);
 
-    const target = document.querySelector('.tw')
-    const target2 = document.querySelector('.tw2')
-    const writer = new Typewriter(target, {
-      loop: true,
-      typeSpeed: 80,
-      deleteSpeed: 80,
-      typeColor: 'black'
-    })
-    
-    writer
-      .type("I am a Software Developer.")
-      .rest(500)
-      .changeOps({ deleteSpeed: 80 })
-      .remove(19)
-      .type('Programmer.')
-      .rest(500)
-      .remove(11)
-      .type('Front-end developer.')
-      .rest(500)
-      .changeOps({ deleteSpeed: 20 })
-      .remove(21)
-      .clear()
-      .start()
+        const writer = new Typewriter(target, {
+          loop: true,
+          typeSpeed: 80,
+          deleteSpeed: 80,
+          typeColor: 'black'
+        });
+
+        writer
+          .type("I am a Software Developer.")
+          .rest(500)
+          .changeOps({ deleteSpeed: 80 })
+          .remove(19)
+          .type('Programmer.')
+          .rest(500)
+          .remove(11)
+          .type('Front-end developer.')
+          .rest(500)
+          .changeOps({ deleteSpeed: 20 })
+          .remove(21)
+          .clear()
+          .start();
+      },500)
   }
-
+  }
 }

@@ -1,0 +1,36 @@
+{
+    "Uitgelichte_projecten":[
+        {
+            "id": 1,
+            "Titel": "Gemeente Amsterdam",
+            "src": "../../assets/img/Screenshot 2024-02-26 184433.png"
+        },
+        {
+            "id": 2,
+            "Titel": "Cookie Clicker",
+            "src": "../../assets/img/cookie.webp"
+        },
+        {
+            "id": 3,
+            "Titel": "Gemeente Amsterdam",
+            "src": "../../assets/img/Screenshot 2024-02-26 184433.png"
+        },
+        {
+            "id": 4,
+            "Titel": "Cookie Clicker",
+            "src": "../../assets/img/cookie.webp"
+        },
+        {
+            "id": 5,
+            "Titel": "Gemeente Amsterdam",
+            "src": "../../assets/img/Screenshot 2024-02-26 184433.png"
+        },
+        {
+            "id": 6,
+            "Titel": "Cookie Clicker",
+            "src": "../../assets/img/cookie.webp"
+        }
+    ]
+    
+
+}

@@ -34,7 +34,7 @@
     &__rightSection{
   height: 100%;
   padding: 2rem;
-      
+ 
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -42,20 +42,111 @@
        
     }
 
+    &__rightSectionIconList{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 5rem;
+        width: 30rem;
+       
+
+    }
+
+    &__rightSectionIconListItem{
+list-style: none;
+font-size: 4rem;
+
+
+    }
+
 
     &__secondArticle{
-        height: 40vh;
-    
-        
-      
+        height: 100vh;
+    display: grid;
+    grid-template-columns: 50, 50;
+     
+    }
+
+    &__secondArticleContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
     }
 
     &__secondArticleTitle{
-        padding: 2rem;
+        padding-left: 1rem;
+        height: 10%;
     }
 
-    &__thirdArticle{
-height: 100vh;
+    &__secondArticleFirstSection{
+        height: 100%;
+        width: 50%;
+        background-color: red;
     }
+
+    &__secondArticleFirstSectionList{
+background: green;
+padding: 4rem;
+    }
+
+    &__secondArticleFirstSectionListItem{
+
+        background: blue;
+       list-style: none;
+       display: flex;
+       margin-bottom: 2rem;
+    
+    }
+
+    &_secondArtivleFirstSectionSpan{
+       font-weight: 700;
+       display: flex;
+       align-items: flex-start;
+       justify-content: flex-start;
+       width: 50rem;
+  
+    
+    }
+
+    &_secondArtivleFirstSectionSpan2{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+ 
+width: 100%;
+background: rebeccapurple;
+
+    }
+
+
+
+    &__secondArticleSecondSection{
+        width: 50%;
+        height: 100%;
+background: yellow;
+display: flex;
+align-items: center;
+justify-content: center;
+    }
+
+    &__secondArticleSecondSectionFigure{
+        height: 30rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    &__secondArticleSecondSectionFigureImg{
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+    }
+
+
+
 
 }
+

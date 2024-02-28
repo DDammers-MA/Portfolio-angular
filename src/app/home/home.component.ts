@@ -1,6 +1,6 @@
 import { Component, Inject, PLATFORM_ID, AfterViewInit } from '@angular/core';
 import Typewriter from 't-writer.js';
-import { SliderComponent } from '../slider/slider.component';
+
 import { isPlatformBrowser } from '@angular/common';
 
 import { CommonModule } from '@angular/common';
@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [SliderComponent],
+  imports: [],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })

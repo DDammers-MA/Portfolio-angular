@@ -1,12 +1,17 @@
 .main{
     height: 85vh;
 
+    &__svg{
+   margin-top: -1rem;
+    }
+    
+
 
     &__firstArticle{
         height: 100%;
         display: grid;
         grid-template-columns: 40% 60%;
-
+        background: #171717;
         align-items: center;
         justify-content: center;
     }
@@ -27,6 +32,7 @@
     &__firstArticleFigureImg{
         height: 100%;
         border-radius: 50%;
+        border: 0.2rem solid #444444;
     }
 
 
@@ -34,7 +40,7 @@
     &__rightSection{
   height: 100%;
   padding: 2rem;
- 
+ color: #EDEDED;
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -75,27 +81,32 @@ font-size: 4rem;
     }
 
     &__secondArticleTitle{
-        padding-left: 1rem;
-        height: 10%;
+        padding: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+     
+       
     }
 
     &__secondArticleFirstSection{
         height: 100%;
-        width: 50%;
-        background-color: red;
+        width: 60%;
+     
     }
 
     &__secondArticleFirstSectionList{
-background: green;
+
 padding: 4rem;
+height: 30%;
     }
 
     &__secondArticleFirstSectionListItem{
 
-        background: blue;
+
        list-style: none;
        display: flex;
-       margin-bottom: 2rem;
+       margin-bottom: 1rem;
     
     }
 
@@ -115,23 +126,29 @@ padding: 4rem;
         justify-content: flex-start;
  
 width: 100%;
-background: rebeccapurple;
 
+
+    }
+
+    &__secondArticleFirstSectionText{
+        padding: 4rem;
+        gap: 1rem;
+        height: 60%;
     }
 
 
 
     &__secondArticleSecondSection{
-        width: 50%;
+        width: 40%;
         height: 100%;
-background: yellow;
+
 display: flex;
 align-items: center;
 justify-content: center;
     }
 
     &__secondArticleSecondSectionFigure{
-        height: 30rem;
+        height: 40rem;
         display: flex;
         align-items: center;
         justify-content: center;

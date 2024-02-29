@@ -1,5 +1,7 @@
 .header{
     height: 15vh;
+    background: #171717;
+ 
  
 
     &__nav{
@@ -19,15 +21,15 @@
 
     &__navListItem{
         width: 8rem;
-        
+       
         :hover{
-            color: crimson;
+            color: #DA0037;
         }
     }
 
     &__navListItemLink{
         text-decoration: none;
-        color: black;
+        color: #EDEDED ;
 
       
     }

@@ -1,0 +1,6 @@
+$linear-gradient-color1: #000000;
+$linear-gradient-color2: #3E065F;
+
+.shared-linear-gradient {
+  background: linear-gradient($linear-gradient-color1, $linear-gradient-color2);
+}

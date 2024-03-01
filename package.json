@@ -22,6 +22,7 @@
     "@angular/router": "^17.0.0",
     "@angular/ssr": "^17.0.3",
     "express": "^4.18.2",
+    "preact-skillbar": "^1.0.0",
     "rxjs": "~7.8.0",
     "swiper": "^11.0.7",
     "t-writer.js": "^1.0.4",

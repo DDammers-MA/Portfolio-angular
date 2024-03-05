@@ -4,6 +4,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectenComponent } from './projecten/projecten.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 

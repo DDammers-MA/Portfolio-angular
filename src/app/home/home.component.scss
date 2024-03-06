@@ -48,6 +48,15 @@
        
     }
 
+    &__rightSectionName{
+        font-weight: 700;
+    }
+
+    &__rightSectionTyping{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
     &__rightSectionIconList{
         display: flex;
         align-items: center;
@@ -67,7 +76,7 @@ font-size: 4rem;
 
 
     &__secondArticle{
-        height: 100vh;
+        height: auto;
     display: grid;
     grid-template-columns: 50, 50;
      
@@ -85,6 +94,7 @@ font-size: 4rem;
         display: flex;
         align-items: center;
         justify-content: flex-start;
+        font-size: 200%;
      
        
     }
@@ -175,6 +185,7 @@ justify-content: center;
 
     &__thirdArticleTitle{
         padding: 4rem;
+        font-size: 200%;
 
     }
 
@@ -188,6 +199,7 @@ justify-content: center;
 
     &__thirdArticleSectionTitle{
         margin-bottom: 1rem;
+        font-size: 150%;
     }
 
     &__thirdArticleLeftSection{
@@ -207,16 +219,19 @@ justify-content: center;
     
 &__thirdArticleContainer {
     width: 100%;
+    height: auto;
     background-color: white;
     border-radius: 2rem;
-    height: 2rem;
+    height: 2.3rem;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
+ 
  
   }
   
   &__thirdArticleContainerSkills {
     text-align: right;
+    
 
     color: #EDEDED;
 

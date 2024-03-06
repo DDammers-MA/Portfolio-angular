@@ -1,23 +1,32 @@
 .main{
     height: 100vh;
-   background: #eeee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+   background: #EDEDED;
+  
+ 
+ &__firstArticleTitle{
+    width: 100%;
+    padding-left: 4rem;
+    padding-top: 2rem;
+  
+    font-size: 200%;
+ }
 
     &__articleContact{
-     
+width: 100%;
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
+ 
         
     }
 
     &__articleContactForm{
         height: 100%;
-
+        width: 50%;
+        
+       
         display: flex;
         align-items: flex-start;
         justify-content: center;
@@ -27,9 +36,30 @@
 
     &__articleContactFormSubmit{
         height: 3rem;
-        width: 10rem;
+        width: 15rem;
+        border-radius: 0.5rem;
         background: black;
-        color: white;
+        color: #EDEDED;
+        margin-top: 2rem;
+
+        &:hover{
+            cursor: pointer;
+        }
+ 
+    }
+
+
+    &__articleContactFormLabel{
+        margin-top: 1rem;
+    }
+
+    &__articleContactFormInput{
+     outline: none;
+        width: 100%;
+        background: none;
+        border-bottom: 0.2rem solid #171717;
+        
+     
     }
 }
 

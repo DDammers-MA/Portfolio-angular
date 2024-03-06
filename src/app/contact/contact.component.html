@@ -1,23 +1,25 @@
 <main class="main">
-    <article class="main__articleContact">
 
-        
+  <article class="main__articleContact">
+    <h1 class="main__firstArticleTitle">contact me</h1>
 
+      
+       
         <form class="main__articleContactForm" [formGroup]="form" (ngSubmit)="send()">
-            <label>Name</label>
-            <input type="text" name="user_name" formControlName="from_name">
+            <label class="main__articleContactFormLabel">Name</label>
+            <input class="main__articleContactFormInput" placeholder="name" type="text" name="user_name" formControlName="from_name" required>
         
-            <label>Email</label>
-            <input type="email" name="user_email" formControlName="from_email">
+            <label class="main__articleContactFormLabel">Email</label>
+            <input class="main__articleContactFormInput" placeholder="email" type="email" name="user_email" formControlName="from_email" required>
         
-            <label>Phone Number</label>
-            <input type="text" name="user_phone" formControlName="phone">
+            <label class="main__articleContactFormLabel">Phone Number</label>
+            <input class="main__articleContactFormInput" placeholder="phone number" type="text" name="user_phone" formControlName="phone" required>
         
-            <label>Subject</label>
-            <input type="text" name="Subject" formControlName="subject">
+            <label class="main__articleContactFormLabel">Subject</label>
+            <input class="main__articleContactFormInput" placeholder="subject" type="text" name="Subject" formControlName="subject" required>
         
-            <label>Message</label>
-            <textarea name="message" formControlName="message"></textarea>
+            <label class="main__articleContactFormLabel">Message</label>
+            <textarea class="main__articleContactFormInput" placeholder="message" name="message" formControlName="message" required></textarea>
         
             <input class="main__articleContactFormSubmit" type="submit" value="Send">
         </form>

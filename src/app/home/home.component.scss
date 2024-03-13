@@ -1,5 +1,6 @@
 .main{
     height: 85vh;
+ 
 
     &__svg{
    margin-top: -1rem;
@@ -62,7 +63,7 @@
         align-items: center;
         justify-content: flex-start;
         gap: 5rem;
-        width: 30rem;
+        width: 100%;
        
 
     }
@@ -77,9 +78,13 @@ font-size: 4rem;
 
     &__secondArticle{
         height: auto;
-    display: grid;
-    grid-template-columns: 50, 50;
      
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   width: 100%;
+
     }
 
     &__secondArticleContainer{
@@ -87,6 +92,10 @@ font-size: 4rem;
         align-items: center;
         justify-content: center;
         height: 100%;
+        width: 100%;
+   
+       
+     
     }
 
     &__secondArticleTitle{
@@ -95,6 +104,8 @@ font-size: 4rem;
         align-items: center;
         justify-content: flex-start;
         font-size: 200%;
+        width: 100%;
+ 
      
        
     }
@@ -144,6 +155,12 @@ width: 100%;
         padding: 4rem;
         gap: 1rem;
         height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start ;
+        flex-shrink: 1;
+        flex-wrap: wrap;
+       
     }
 
 
@@ -162,6 +179,7 @@ justify-content: center;
         display: flex;
         align-items: center;
         justify-content: center;
+     
 
     }
 
@@ -170,6 +188,8 @@ height: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
+
+
     }
 
 
@@ -293,7 +313,205 @@ justify-content: center;
 }
 
   
+&__fourthArticle{
+    height: auto;
+   padding: 4rem;
+
+   
 
 
 }
 
+&__fourthArticleTitle{
+    padding: 4rem;
+    font-size: 200%;
+}
+
+
+&__fouthArticleListItem{
+
+    height: 40rem;
+    width: 30rem;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+
+}
+
+&__fouthArticleListItemText{
+    padding: 1rem;
+}
+
+&__fourthArticleSlider{
+    
+    display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100%;
+}
+
+&__fourthArticleSliderSlide{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+}
+
+@media screen and (max-width: 60rem){
+
+
+.main{
+
+    &__firstArticle{
+        height: 100%;
+        display: flex;
+   
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+    }
+
+    &__rightSection{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__rightSectionTyping{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    &__rightSectionIconList{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+       
+
+    }
+
+    &__firstArticleFigureImg{
+        height: 80%;
+        border-radius: 50%;
+        border: 0.2rem solid #444444;
+    }
+   
+
+    &__secondArticleContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+        flex-direction: column;
+        height: 100%;
+     
+    }
+
+    
+    &__secondArticleTitle{
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 200%;
+        width: 100%;
+ 
+     
+       
+    }
+
+    &__secondArticleFirstSection{
+        height: 100%;
+        width: 100%;
+     
+    }
+
+    &__secondArticleFirstSectionList{
+
+padding: 1rem;
+height: 30%;
+width: 100%;
+
+
+
+    }
+
+
+
+    &__secondArticleFirstSectionListItem{
+
+       display: block;
+    
+    }
+
+    
+    &__secondArticleFirstSectionText{
+        padding: 1rem;
+       
+    }
+
+    
+    &__secondArticleSecondSection{
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+
+display: flex;
+align-items: center;
+justify-content: center;
+    }
+
+    &__secondArticleSecondSectionFigure{
+  
+
+    }
+
+    &__secondArticleSecondSectionFigureImg{
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+    }
+
+
+    &__thirdArticleTitle{
+        padding: 1rem;
+
+    }
+
+
+    &__thirdArticleDiv{
+        margin-top: 1rem;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    &__thirdArticleLeftSection{
+        width: 100%;
+       
+        padding: 1rem;
+      
+    }
+
+
+    &__thirdArticleRightSection{
+        width: 100%;
+    
+        padding: 1rem;
+    }
+
+   
+
+
+
+    
+}
+
+
+}

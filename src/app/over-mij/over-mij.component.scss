@@ -1,0 +1,217 @@
+
+.main{
+
+
+
+
+&__secondArticleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+&__secondArticleTitle {
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 200%;
+    width: 100%;
+
+
+
+}
+
+&__secondArticleFirstSection {
+    height: 100%;
+    width: 60%;
+
+}
+
+&__secondArticleFirstSectionList {
+
+    padding: 4rem;
+    height: 30%;
+}
+
+&__secondArticleFirstSectionListItem {
+
+
+    list-style: none;
+    display: flex;
+    margin-bottom: 1rem;
+
+}
+
+&_secondArtivleFirstSectionSpan {
+    font-weight: 700;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50rem;
+
+
+}
+
+&_secondArtivleFirstSectionSpan2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    width: 100%;
+
+
+}
+
+&__secondArticleFirstSectionText {
+    padding: 4rem;
+    gap: 1rem;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+
+}
+
+
+
+&__secondArticleSecondSection {
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+&__secondArticleSecondSectionFigure {
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+&__secondArticleSecondSectionFigureImg {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+
+
+@media screen and (max-width: 769px) {
+
+
+    .main {
+
+
+
+        &__secondArticleContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        
+            width: 100%;
+
+        }
+
+        &__secondArticleFirstSection {
+            height: 100%;
+            width: 60%;
+
+        }
+
+        &__secondArticleFirstSectionList {
+            padding: 1.5rem;
+            height: 30%;
+            width: 100%;
+        }
+
+
+        &__secondArticleFirstSectionListItem {
+            display: block;
+        }
+
+        &__secondArticleFirstSectionText {
+            padding: 1.5rem;
+      
+        }
+
+        &__secondArticleSecondSectionFigure {
+            padding: 1rem;
+            height: 100%;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 426px) {
+
+    .main {
+
+        &__secondArticle{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+                    }
+
+        &__secondArticleContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow-x: hidden;
+            flex-direction: column;
+            height: 100%;
+
+        }
+
+        &__secondArticleFirstSection {
+            height: 100%;
+            width: 100%;
+
+        }
+
+        &__secondArticleFirstSectionList {
+            padding: 1.5rem;
+            height: 30%;
+            width: 100%;
+        }
+
+
+        &__secondArticleFirstSectionListItem {
+            display: block;
+        }
+
+        &__secondArticleFirstSectionText {
+            padding: 1.5rem;
+        }
+
+        &__secondArticleSecondSection{
+height: 100%;
+        }
+
+        &__secondArticleSecondSectionFigure {
+            padding: 1rem;
+           height: 30rem;
+            aspect-ratio: 1/1;
+         
+        }
+
+     
+    }
+
+
+}

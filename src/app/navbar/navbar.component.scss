@@ -1,7 +1,7 @@
 .header{
     height: 15vh;
     background: #171717;
- 
+    position: relative;
  
 
     &__nav{
@@ -16,6 +16,7 @@
         list-style: none;
         gap: 5rem;
         padding: 4rem;
+        
       
     }
 
@@ -34,3 +35,79 @@
       
     }
 }
+
+.nav-link--werken{
+    position: absolute;
+    bottom: 0;
+    
+}
+
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    padding-right: 3rem;
+}
+
+.bar {
+    width: 5rem;
+    height: 0.8rem;
+    background-color: crimson;
+    display: block;
+    margin: 0.5rem auto;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: crimson;
+
+}
+
+
+
+
+
+@media screen and (max-width: 426px) {
+ 
+    .hamburger {
+        padding: 1rem;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .header__navList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: -100%;
+        position: fixed;
+        top: 7rem;
+        gap: 0;
+        flex-direction: column;
+        background: crimson;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 2;
+
+    }
+
+    .header__navList.active {
+        left: 0;
+    
+    }
+
+    .header__navListItem {
+        margin: 1.6rem 0;
+    }
+
+
+}
+body.menu-open {
+    overflow: hidden;
+  }

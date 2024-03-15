@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component , HostListener, Renderer2, ElementRef } from '@angular/core';
+
 import { RouterLink, RouterModule } from '@angular/router';
 
 @Component({
@@ -9,5 +10,18 @@ import { RouterLink, RouterModule } from '@angular/router';
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
+  isMenuOpen = false;
 
+   constructor(private renderer: Renderer2) { }
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+    if (this.isMenuOpen) {
+      this.renderer.setStyle(document.body, 'overflow', 'hidden');
+    } else {
+      this.renderer.removeStyle(document.body, 'overflow');
+    }
+  }
 }
+
+  

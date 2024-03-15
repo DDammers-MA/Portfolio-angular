@@ -5,13 +5,14 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectenComponent } from './projecten/projecten.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, NavbarComponent, HomeComponent, ProjectenComponent, RouterLink],
+  imports: [CommonModule, RouterOutlet, NavbarComponent, HomeComponent, ProjectenComponent, RouterLink, ContactComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

@@ -1,7 +1,7 @@
 <header class="header">
-
+    
     <nav class="header__nav">
-        <ul class="header__navList">
+        <ul class="header__navList"  [class.active]="isMenuOpen" >
 
             <li class="header__navListItem">
                 <a class="header__navListItemLink" routerLink="">Home</a>
@@ -19,6 +19,14 @@
                 <a class="header__navListItemLink" routerLink="/Contact">Contact</a>
             </li>
         </ul>
+
+        <div class="hamburger" (click)="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        
     </nav>
 
 </header>

@@ -6,12 +6,16 @@ import { isPlatformBrowser } from '@angular/common';
 import { CommonModule } from '@angular/common';
 import { register } from 'swiper/element/bundle'
 
+import { OverMijComponent } from '../over-mij/over-mij.component';
+import { SkillsComponent } from '../skills/skills.component';
+import { ProjectenComponent } from '../projecten/projecten.component';
+
 register()
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule,],
+  imports: [CommonModule, OverMijComponent, SkillsComponent, ProjectenComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
@@ -60,22 +64,7 @@ export class HomeComponent implements OnInit {
     }
 
 
-    slidesPerView:number = 3;
-    screenWidth!: number;
-  
-    @HostListener('window:resize')
-    getScreenWidth(){
-      this.screenWidth = window.innerWidth;
-      if(this.screenWidth >= 320 && this.screenWidth <= 700){
-        this.slidesPerView = 1;
-      }
-     else if(this.screenWidth >= 700 && this.screenWidth <= 1000){
-        this.slidesPerView = 2;
-      }
-      else if(this.screenWidth >= 1000 && this.screenWidth <= 1200){
-        this.slidesPerView = 3;
-      }
-    }
+
   }
   
 

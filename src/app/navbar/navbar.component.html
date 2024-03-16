@@ -3,21 +3,11 @@
     <nav class="header__nav">
         <ul class="header__navList"  [class.active]="isMenuOpen" >
 
-            <li class="header__navListItem">
-                <a class="header__navListItemLink" routerLink="">Home</a>
-            </li>
+            <li class="header__navListItem"><a class="header__navListItemLink" routerLink="">Home</a></li>
+            <li class="header__navListItem"><a class="header__navListItemLink" routerLink="">Over mij</a></li>
+            <li class="header__navListItem"> <a class="header__navListItemLink" routerLink="/projecten">projecten</a></li>
+            <li class="header__navListItem"> <a class="header__navListItemLink" routerLink="/Contact">Contact</a></li>
 
-            <li class="header__navListItem">
-                <a class="header__navListItemLink" routerLink="">Over mij</a>
-            </li>
-
-            <li class="header__navListItem">
-                <a class="header__navListItemLink" routerLink="/projecten">projecten</a>
-            </li>
-
-            <li class="header__navListItem">
-                <a class="header__navListItemLink" routerLink="/Contact">Contact</a>
-            </li>
         </ul>
 
         <div class="hamburger" (click)="toggleMenu()">
@@ -26,7 +16,6 @@
             <span class="bar"></span>
         </div>
 
-        
     </nav>
 
 </header>

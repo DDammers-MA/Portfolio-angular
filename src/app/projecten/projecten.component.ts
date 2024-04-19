@@ -1,17 +1,28 @@
-import { Component, Inject, PLATFORM_ID, AfterViewInit, OnInit, CUSTOM_ELEMENTS_SCHEMA, HostListener } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA, HostListener } from '@angular/core';
 import { register } from 'swiper/element/bundle'
 register()
+import data from '../../assets/json/data.json'
+import { CommonModule } from '@angular/common';
 
 
 @Component({
   selector: 'app-projecten',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './projecten.component.html',
   styleUrl: './projecten.component.scss',
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class ProjectenComponent {
+ 
+  data = data.Uitgelichte_projecten;
+
+  constructor() {
+    console.log(this.data);
+    this.getScreenWidth();
+  }
+
+
   slidesPerView:number = 3;
   screenWidth!: number;
 

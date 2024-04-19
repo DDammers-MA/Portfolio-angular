@@ -1,6 +1,6 @@
-<main class="main">
+<main class="main animate__animated">
 
-    <article class="main__firstArticle">
+    <article class="main__firstArticle " >
 
         <section class="main__leftSection">
             <figure class="main__firstArticleFigure">
@@ -16,6 +16,8 @@
                 <li class="main__rightSectionIconListItem"><i class="fa-brands fa-github"></i></li>
                 <li class="main__rightSectionIconListItem"><i class="fa-brands fa-linkedin"></i></li>
             </ul>
+
+            <a class="main__contactButton" routerLink="/Contact">Neem contact op</a>
 
         </section>
 
@@ -34,19 +36,35 @@
         </path>
     </svg>
 
-    <article class="main__secondArticle">
+    <article class="main__secondArticle reveal">
 
     <app-over-mij></app-over-mij>
 
     </article>
 
-    <article class="main__thirdArticle">
+    <article class="main__callToAction reveal">
+
+        <section class="main__callToActionSection">
+
+            <h2 class="main__callToActionTitle">Neem contact op</h2>
+         
+        </section>
+
+        <section class="main__callToActionSection">
+            <a class="main__contactButton" routerLink="/Contact">Neem contact op</a>
+    
+        </section>
+    
+
+    </article>
+
+    <article class="main__thirdArticle reveal">
 
       <app-skills></app-skills>
 
     </article>
 
-    <article class="main__fourthArticle">
+    <article class="main__fourthArticle reveal">
 
         <app-projecten></app-projecten>
     

@@ -3,32 +3,44 @@
         {
             "id": 1,
             "Titel": "Gemeente Amsterdam",
-            "src": "../../assets/img/Screenshot 2024-02-26 184433.png"
+            "src": "../../assets/img/Screenshot 2024-02-26 184433.png",
+            "text": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eaque, eligendi autem quos totam vel ea facere temporibus iusto id quas voluptates est, vero ipsum aperiam cupiditate perferendis ratione sequi? "
+            
         },
         {
             "id": 2,
             "Titel": "Cookie Clicker",
-            "src": "../../assets/img/cookie.webp"
+            "src": "../../assets/img/cookie.webp",
+            "text": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eaque, eligendi autem quos totam vel ea facere temporibus iusto id quas voluptates est, vero ipsum aperiam cupiditate perferendis ratione sequi? "
+            
         },
         {
             "id": 3,
             "Titel": "Gemeente Amsterdam",
-            "src": "../../assets/img/Screenshot 2024-02-26 184433.png"
+            "src": "../../assets/img/Screenshot 2024-02-26 184433.png",
+            "text": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eaque, eligendi autem quos totam vel ea facere temporibus iusto id quas voluptates est, vero ipsum aperiam cupiditate perferendis ratione sequi? "
+            
         },
         {
             "id": 4,
             "Titel": "Cookie Clicker",
-            "src": "../../assets/img/cookie.webp"
+            "src": "../../assets/img/cookie.webp",
+            "text": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eaque, eligendi autem quos totam vel ea facere temporibus iusto id quas voluptates est, vero ipsum aperiam cupiditate perferendis ratione sequi? "
+            
         },
         {
             "id": 5,
             "Titel": "Gemeente Amsterdam",
-            "src": "../../assets/img/Screenshot 2024-02-26 184433.png"
+            "src": "../../assets/img/Screenshot 2024-02-26 184433.png",
+            "text": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eaque, eligendi autem quos totam vel ea facere temporibus iusto id quas voluptates est, vero ipsum aperiam cupiditate perferendis ratione sequi? "
+            
         },
         {
             "id": 6,
             "Titel": "Cookie Clicker",
-            "src": "../../assets/img/cookie.webp"
+            "src": "../../assets/img/cookie.webp",
+            "text": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eaque, eligendi autem quos totam vel ea facere temporibus iusto id quas voluptates est, vero ipsum aperiam cupiditate perferendis ratione sequi? "
+            
         }
     ]
     

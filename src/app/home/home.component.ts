@@ -9,19 +9,41 @@ import { register } from 'swiper/element/bundle'
 import { OverMijComponent } from '../over-mij/over-mij.component';
 import { SkillsComponent } from '../skills/skills.component';
 import { ProjectenComponent } from '../projecten/projecten.component';
+import { RouterLink } from '@angular/router';
 
 register()
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, OverMijComponent, SkillsComponent, ProjectenComponent],
+  imports: [CommonModule, OverMijComponent, SkillsComponent, ProjectenComponent, RouterLink],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class HomeComponent implements OnInit {
   constructor() { }
+
+  @HostListener('window:scroll', ['$event'])
+  onScroll() {
+    this.reveal();
+  }
+  
+  reveal() {
+    const reveals = document.querySelectorAll(".reveal");
+
+    for (let i = 0; i < reveals.length; i++) {
+      const windowHeight = window.innerHeight;
+      const elementTop = (reveals[i] as HTMLElement).getBoundingClientRect().top;
+      const elementVisible = 150;
+
+      if (elementTop < windowHeight - elementVisible) {
+        (reveals[i] as HTMLElement).classList.add("active");
+      } else {
+        (reveals[i] as HTMLElement).classList.remove("active");
+      }
+    }
+  }
 
   ngOnInit(): void {
   

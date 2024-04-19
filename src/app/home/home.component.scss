@@ -95,6 +95,15 @@
 
     }
 
+    &__rightSectionIconListItemLink{
+        text-decoration: none;
+        color: #EDEDED;
+
+        &:hover{
+            color: #DA0037;
+        }
+    }
+
     &__secondArticle {
         height: auto;
         flex-direction: column;

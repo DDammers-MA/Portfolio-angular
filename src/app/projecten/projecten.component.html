@@ -7,9 +7,17 @@
         
         <li class="main__fouthArticleListItem" >
             <img [src]="data.src" alt="">
-            <span class="main__name">{{ data.Titel}}</span>
+            <h3 class="main__name">{{ data.Titel}}</h3>
             <p class="main__fouthArticleListItemText">{{ data.text}}</p>
-        </li>
+
+
+<div class="main__fourthArticleDiv">
+    <a href="{{ data.github}}"><i class="fa-brands fa-github"></i></a>
+    <a href="{{ data.live}}"><i class="fa-solid fa-globe"></i></a>
+</div>
+           
+
+    </li>
     
     </swiper-slide>
 

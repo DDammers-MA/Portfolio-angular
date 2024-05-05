@@ -4,42 +4,90 @@
             "id": 1,
             "Titel": "Gemeente Amsterdam",
             "src": "../../assets/img/Screenshot 2024-02-26 184433.png",
-            "text": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eaque, eligendi autem quos totam vel ea facere temporibus iusto id quas voluptates est, vero ipsum aperiam cupiditate perferendis ratione sequi? "
+            "text": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eaque, eligendi autem quos totam vel ea facere temporibus iusto id quas voluptates est, vero ipsum aperiam cupiditate perferendis ratione sequi? ",
+            "live": "",
+            "github": ""
             
         },
         {
             "id": 2,
             "Titel": "Cookie Clicker",
             "src": "../../assets/img/cookie.webp",
-            "text": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eaque, eligendi autem quos totam vel ea facere temporibus iusto id quas voluptates est, vero ipsum aperiam cupiditate perferendis ratione sequi? "
+            "text": " Als opdracht moesten wij het spel 'Cookie Clicker' namaken. Met het gebruik van JavaScript en objectgeoriënteerde programmering (OOP) moest alle functionaliteit worden beheerd. Het spel bevat verschillende functies, zoals een vermenigvuldiger, automatische score en verschillende skins. ",
+            "live": "http://daniel.dammienet.nl/cookie/",
+            "github": "https://github.com/DDammers-MA/cookie"
             
         },
         {
             "id": 3,
-            "Titel": "Gemeente Amsterdam",
-            "src": "../../assets/img/Screenshot 2024-02-26 184433.png",
-            "text": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eaque, eligendi autem quos totam vel ea facere temporibus iusto id quas voluptates est, vero ipsum aperiam cupiditate perferendis ratione sequi? "
+            "Titel": "Banky",
+            "src": "../../assets/img/banky.webp",
+            "text": " Als opdracht heb ik een online bankierswebsite gemaakt genaamd 'Banky'. Banky is een online bankomgeving waar je toegang hebt tot verschillende rekeningen. De website is gegenereerd met behulp van JavaScript en objectgeoriënteerde programmering (OOP). ",
+            "live": "http://daniel.dammienet.nl/banky/",
+            "github": "https://github.com/DDammers-MA/banky"
             
         },
         {
             "id": 4,
-            "Titel": "Cookie Clicker",
-            "src": "../../assets/img/cookie.webp",
-            "text": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eaque, eligendi autem quos totam vel ea facere temporibus iusto id quas voluptates est, vero ipsum aperiam cupiditate perferendis ratione sequi? "
+            "Titel": "Color picker",
+            "src": "../../assets/img/color.webp",
+            "text": " Als opdracht heb ik een website gemaakt waar je 100 verschillende kleuren krijgt waaruit je kunt kiezen. De website biedt de mogelijkheid om een kleur te selecteren voor je projecten. Je kunt eenvoudig op een kleur klikken om de hexcode te kopiëren. ",
+            "live": "http://daniel.dammienet.nl/colorPicker/",
+            "github": "https://github.com/DDammers-MA/color-picker"
             
         },
         {
             "id": 5,
-            "Titel": "Gemeente Amsterdam",
-            "src": "../../assets/img/Screenshot 2024-02-26 184433.png",
-            "text": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eaque, eligendi autem quos totam vel ea facere temporibus iusto id quas voluptates est, vero ipsum aperiam cupiditate perferendis ratione sequi? "
+            "Titel": "van Gogh museum",
+            "src": "../../assets/img/gogh.webp",
+            "text": " Als opdracht moesten we zelf een museum uitkiezen dat we vervolgens zelf probeerden na te bouwen. Voor de website moesten we een interactieve pagina maken waarmee je door de kamer kunt navigeren. Dit was de allereerste front-end opdracht waaraan ik heb gewerkt. ",
+            "live": "http://daniel.dammienet.nl/museum%20online/",
+            "github": "https://github.com/DDammers-MA/Online-museum"
             
         },
         {
             "id": 6,
-            "Titel": "Cookie Clicker",
-            "src": "../../assets/img/cookie.webp",
-            "text": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eaque, eligendi autem quos totam vel ea facere temporibus iusto id quas voluptates est, vero ipsum aperiam cupiditate perferendis ratione sequi? "
+            "Titel": "Collection of Happiness",
+            "src": "../../assets/img/happy.webp",
+            "text": " De opdracht was om een website te maken voor het beluisteren van podcasts genaamd 'Collection Of Happiness'. Deze website geeft de gebruiker de mogelijkheid om aan de linkerkant een selectie van podcasts te kiezen, waarvan de geselecteerde podcast de juiste informatie aan de rechterkant weergeeft.",
+            "live": "http://daniel.dammienet.nl/happiness/",
+            "github": "https://github.com/DDammers-MA/collection-of-happiness"
+            
+        },
+        {
+            "id": 7,
+            "Titel": "encrypter/decrypter",
+            "src": "../../assets/img/lock.webp",
+            "text": " Dit is een website waarmee je Caesar-codering kunt versleutelen en ontsleutelen. Aan de linkerzijde is er een tekstinvoerveld waarmee je tekst kunt versleutelen om ervoor te zorgen dat niemand de tekst kan herkennen. Aan de rechterzijde is er een ontsleutelingsveld waarmee je de versleutelde tekst kunt decoderen. ",
+            "live": "http://daniel.dammienet.nl/encryoter/",
+            "github": "https://github.com/DDammers-MA/encrypter-decrypter"
+            
+        },
+        {
+            "id": 8,
+            "Titel": "Doesburg coaching",
+            "src": "../../assets/img/stop.webp",
+            "text": " In groepjes van 3 moesten wij allemaal een specifiek onderdeel voor de website ontwikkelen. Mijn taak was om een stressschema te maken waarin gebruikers hun gevoelens konden registreren en uitleggen waarom ze zich op een bepaalde manier voelden. Deze informatie kon vervolgens worden besproken met een live coach. ",
+            "live": "http://daniel.dammienet.nl/stressSchema/",
+            "github": "https://github.com/MatthewWillems/DeepDive/tree/main/stressSchema"
+            
+        },
+        {
+            "id": 9,
+            "Titel": "Make it rain",
+            "src": "../../assets/img/stream.webp",
+            "text": " Voor dit project heb ik samengewerkt met een klasgenoot. We hadden de vrijheid om onze eigen keuzes te maken. Mijn klasgenoot en ik besloten om onze eigen streamingwebsite genaamd 'SlyStream' te bouwen. Voor dit project moesten we PHP leren om een database te kunnen gebruiken. ",
+            "live": "http://daniel.dammienet.nl/slystream/php/home.php",
+            "github": "https://github.com/DDammers-MA/slystream"
+            
+        },
+        {
+            "id": 10,
+            "Titel": "yubtub",
+            "src": "../../assets/img/yubtub.webp",
+            "text": " De opdracht was om een YouTube-kloon te maken op basis van een wireframe. De opdracht was om een website te ontwikkelen waar gebruikers opmerkingen kunnen toevoegen en video's kunnen bekijken, en ook om tussen video's te kunnen schakelen. Deze website is ontwikkeld met behulp van objectgeoriënteerde JavaScript (OOP).",
+            "live": "http://daniel.dammienet.nl/yubtub/",
+            "github": "https://github.com/DDammers-MA/yubtub"
             
         }
     ]

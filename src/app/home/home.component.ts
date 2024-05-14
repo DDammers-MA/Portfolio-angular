@@ -9,14 +9,16 @@ import { register } from 'swiper/element/bundle'
 import { OverMijComponent } from '../over-mij/over-mij.component';
 import { SkillsComponent } from '../skills/skills.component';
 import { ProjectenComponent } from '../projecten/projecten.component';
+
 import { RouterLink } from '@angular/router';
+import { ContactComponent } from '../contact/contact.component';
 
 register()
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, OverMijComponent, SkillsComponent, ProjectenComponent, RouterLink],
+  imports: [CommonModule, OverMijComponent, SkillsComponent, ProjectenComponent, RouterLink, ContactComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
@@ -61,7 +63,7 @@ export class HomeComponent implements OnInit {
       })
     
       writer1
-        .changeTypeColor('#EDEDED')
+        .changeTypeColor('#F5EDED')
         .type('I am a ')
         .removeCursor()
         .then(writer2.start.bind(writer2))
@@ -72,11 +74,11 @@ export class HomeComponent implements OnInit {
         .type("Software developer")
         .rest(500)
         .clear()
-        .changeTypeColor('#6C22A6')
+        .changeTypeColor('#DA0037')
         .type("Programmer")
         .rest(500)
         .clear()
-        .changeTypeColor('#387ADF')
+        .changeTypeColor('#DA0037')
         .type("Frond-end developer")
         .rest(500)
         .clear()

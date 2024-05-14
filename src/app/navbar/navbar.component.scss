@@ -1,10 +1,7 @@
 .header{
     height: 15vh;
     width: 100%;
-    background: #171717;
-    position: relative;
-    
- 
+
 
     &__nav{
         height: 100%;
@@ -32,7 +29,7 @@
 
     &__navListItemLink{
         text-decoration: none;
-        color: #EDEDED ;
+        color: black ;
 
       
     }
@@ -69,6 +66,8 @@
 
 
 @media screen and (max-width: 426px) {
+
+
  
     .hamburger {
         padding: 1rem;
@@ -96,11 +95,11 @@
         text-align: center;
         transition: 0.3s;
         z-index: 2;
-
     }
 
     .header__navList.active {
         left: 0;
+     
     
     }
 

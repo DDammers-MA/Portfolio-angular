@@ -11,6 +11,7 @@ import { RouterLink, RouterModule } from '@angular/router';
 })
 export class NavbarComponent {
   isMenuOpen = false;
+ 
 
    constructor(private renderer: Renderer2) { }
 
@@ -22,6 +23,8 @@ export class NavbarComponent {
       this.renderer.removeStyle(document.body, 'overflow');
     }
   }
+
+  
 }
 
   

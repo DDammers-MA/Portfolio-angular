@@ -1,6 +1,6 @@
 
 .main{
-
+height: auto;
 
 
 
@@ -10,9 +10,6 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-
-
-
 }
 
 &__secondArticleTitle {
@@ -121,10 +118,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100%;
+            height: auto;
         
-            width: 100%;
-
         }
 
         &__secondArticleFirstSection {
@@ -162,11 +157,15 @@
 
     .main {
 
+        
         &__secondArticle{
             display: flex;
             align-items: center;
             justify-content: center;
                     }
+        &__secondArticleTitle{
+            padding: 1.5rem;
+        }
 
         &__secondArticleContainer {
             display: flex;
@@ -175,6 +174,7 @@
             overflow-x: hidden;
             flex-direction: column;
             height: 100%;
+            height: auto;
 
         }
 

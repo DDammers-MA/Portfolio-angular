@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+ <main class="main">
+
+    <article class="main__article">
+        <section class="main__firstSection">
+
+            <figure class="main__firstSectionFigure">
+                <img class="main__firstSectionFigureImg" [src]="data.src" alt="">
+                <h2 class="main__firstSectionFigureImgTitle">{{data.Titel}}</h2>
+            </figure>
+
+        </section>
+
+        <section class="main__secondSection">
+            <p class="main__secondSectionText">{{data.text}}</p>
+
+            <p class="main__secondArticleSkills">skills gebruikt</p>
+            <ul class="main__secondSectionUl">
+                <li class="main____secondSectionUlList">
+                    <i [class]="data.html" style="color: #e3162b;"></i>
+                </li>
+                <li>
+                    <i [class]="data.css" style="color: #0593ff;"></i>
+                </li>
+                <li>
+                    <i [class]="data.js" style="color: #FFD43B;"></i>
+                </li>
+                <li>
+                    <i [class]="data.php" style="color: #1b00a3;"></i>
+                </li>
+            </ul>
+        </section>
+    </article>
+ </main>
+</body>
+</html>

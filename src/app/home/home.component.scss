@@ -2,19 +2,12 @@
 .main {
     height: auto;
 
-
-    &__svg {
-        margin-top: -1rem;
-        z-index: 0;
-    }
-
-
-
     &__firstArticle {
+     
         height: 85vh;
         display: grid;
         grid-template-columns: 40% 60%;
-        background: #171717;
+    
         align-items: center;
         justify-content: center;
     }
@@ -22,7 +15,7 @@
     &__contactButton{
         background: #DA0037;
        padding: 1rem;
-       color: #EDEDED;
+       color: #F5EDED;
     
         
         border-radius: 5rem;
@@ -33,7 +26,7 @@
             cursor: pointer;
             background: #be0130;
             transform: scale(1.05);
-            color: #EDEDED;
+            color: black;
         }
 
     }
@@ -62,12 +55,13 @@
     &__rightSection {
         height: 100%;
         padding: 2rem;
-        color: #EDEDED;
+        color: #F5EDED;
         display: flex;
         justify-content: center;
         align-items: flex-start;
         flex-direction: column;
-
+   
+        
     }
 
     &__rightSectionName {
@@ -98,8 +92,8 @@
 
     &__rightSectionIconListItemLink{
         text-decoration: none;
-        color: #EDEDED;
-
+        color: #F5EDED;
+        
         &:hover{
             color: #DA0037;
         }
@@ -109,31 +103,36 @@
         height: auto;
         flex-direction: column;
         width: 100%;
+        overflow-x: hidden;
+    
     
     }
 
     
     &__thirdArticle {
         height: auto;
-      background: #171717;
-        color: #EDEDED;
-
+      background: black;
+      color: #F5EDED;
+      overflow-x: hidden;
     }
 
   
 
     &__fourthArticle {
         height: auto;
+        background: linear-gradient(#F5EDED,90%, white);
+        overflow-x: hidden;
     }
 
     &__callToAction{
 
         padding: 4rem;
         height: 15rem;
-        background: #dadada;
+        background: #F5EDED;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        overflow-x: hidden;
     }
 
     &__callToActionTitle{
@@ -158,6 +157,7 @@
 
 
         &__secondArticle {
+         
             margin-bottom: 2rem;
         }
 
@@ -179,10 +179,12 @@
 @media screen and (max-width: 426px) {
 
     .main {
+        
         &__firstArticle {
-            height: 85vh;
+            
+            overflow-x: hidden;
             display: flex;
-
+        
             align-items: center;
             justify-content: center;
             flex-direction: column;
@@ -198,10 +200,20 @@
             border-radius: 50%;
             border: 0.2rem solid #444444;
         }
+
+        &__rightSection {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+       
+            
+        }
     
 
         &__rightSectionTyping {
-            font-size: 2rem;
+            font-size: 1.8rem;
             font-weight: 600;
         }
 
@@ -209,10 +221,18 @@
         &__rightSectionIconList {
             display: flex;
             align-items: center;
-            justify-content: flex-start;
+            justify-content: center;
 
 
         }
+
+        &__secondArticle {
+            height: auto;
+            margin-bottom: 2rem;
+        }
+
+    
+
 
 
     }

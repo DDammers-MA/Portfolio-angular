@@ -3,17 +3,21 @@ import { register } from 'swiper/element/bundle'
 register()
 import data from '../../assets/json/data.json'
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+import { SingleProjectPageComponent } from '../single-project-page/single-project-page.component';
+
 
 
 @Component({
   selector: 'app-projecten',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './projecten.component.html',
   styleUrl: './projecten.component.scss',
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class ProjectenComponent {
+  singlePage = SingleProjectPageComponent;
  
   data = data.Uitgelichte_projecten;
 

@@ -52,3 +52,15 @@
 
 
 }
+
+@media screen and (max-width: 426px) {
+
+    .main{
+
+        &__fourthArticleTitle {
+            padding: 1.5rem;
+           
+        }
+    
+    }
+}

@@ -8,8 +8,10 @@ height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+
     height: 100%;
     width: 100%;
+    background: #131313;
 }
 
 &__secondArticleTitle {
@@ -19,6 +21,8 @@ height: auto;
     justify-content: flex-start;
     font-size: 200%;
     width: 100%;
+    color: white;
+    background: #131313;
 
 
 
@@ -27,6 +31,7 @@ height: auto;
 &__secondArticleFirstSection {
     height: 100%;
     width: 60%;
+    color: white;
 
 }
 

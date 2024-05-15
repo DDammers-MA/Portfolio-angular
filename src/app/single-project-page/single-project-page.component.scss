@@ -1,17 +1,18 @@
 .main{
-    height: 100vh;
+ 
 
     &__article{
     display: grid;
     grid-template-columns: 50% 50%;
+    height: 100vh;
     }
 
     &__firstSection{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100vh;
-background: red;
+     
+
     }
     &__firstSectionFigure{
 padding: 4rem;
@@ -25,14 +26,15 @@ padding: 4rem;
         align-items: center;
         justify-content: center;
         font-size: 150%;
+        color: white;
     }
 
     &__secondSection{
-        background: green;
+   
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+    
         flex-direction: column;
     }
 
@@ -41,10 +43,12 @@ padding: 4rem;
         align-items: center;
         justify-content: center;
         padding: 4rem;
+        color: white;
     }
 
     &__secondArticleSkills{
         font-weight: 700;
+        color: white;
     }
 
     &__secondSectionUl{
@@ -64,4 +68,59 @@ padding: 4rem;
 }
 i{
     font-size: 5rem;
+}
+
+@media screen and (max-width: 426px) {
+.main{
+    &__article{
+        height: auto;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    &__firstSection{
+height: auto;
+    }
+
+    &__firstSectionFigure{
+       
+        padding-top: 1rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+         }
+
+         &__firstSectionFigureImgTitle{
+            font-size: 100%;
+    
+        }
+
+    &__secondSection{
+       
+        text-align: center;
+    }
+    &__secondSectionText{
+        text-align: center;
+   
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    &__secondSectionUl{
+
+        text-align: center;
+    }
+    
+
+ &__secondSectionUlList{
+    font-size: 2rem;
+    text-align: center;
+  
+ }
+}
+
 }

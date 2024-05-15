@@ -1,122 +1,105 @@
 {
-    "Uitgelichte_projecten":[
+    "Uitgelichte_projecten": [
         {
             "id": 1,
             "Titel": "Gemeente Amsterdam",
             "src": "../../assets/img/Screenshot 2024-02-26 184433.png",
-            "subText": "nieuwe pagina voor BMV gemente Amsterdam" ,
+            "subText": "nieuwe pagina voor BMV gemente Amsterdam",
             "text": " Voor deze project moetsten we een nieuw webpagian maken voor amsterdam Bouwmanagement en Maatschappelijk Vastgoed. Hier heb ik gebruik gemaakt van een framework(angular) en scss.",
             "live": "http://amsterdam.dammienet.eu/",
             "github": "https://github.com/DDammers-MA/m10-bo",
             "html": "fa-brands fa-html5",
             "css": "fa-brands fa-css3-alt",
             "js": "fa-brands fa-js"
-
-
-            
         },
         {
             "id": 2,
             "Titel": "Cookie Clicker",
             "src": "../../assets/img/cookie.webp",
-            "subText": "cookie clicker na maak" ,
+            "subText": "cookie clicker na maak",
             "text": " Als opdracht moesten wij het spel 'Cookie Clicker' namaken. Met het gebruik van JavaScript en objectgeoriënteerde programmering (OOP) moest alle functionaliteit worden beheerd. Het spel bevat verschillende functies, zoals een vermenigvuldiger, automatische score en verschillende skins. ",
             "live": "http://daniel.dammienet.nl/cookie/",
             "github": "https://github.com/DDammers-MA/cookie",
             "html": "fa-brands fa-html5",
             "css": "fa-brands fa-css3-alt",
             "js": "fa-brands fa-js"
-
-            
         },
         {
             "id": 3,
             "Titel": "Banky",
             "src": "../../assets/img/banky.webp",
-            "subText": "een bankier app" ,
+            "subText": "een bankier app",
             "text": " Als opdracht heb ik een online bankierswebsite gemaakt genaamd 'Banky'. Banky is een online bankomgeving waar je toegang hebt tot verschillende rekeningen. De website is gegenereerd met behulp van JavaScript en objectgeoriënteerde programmering (OOP). ",
             "live": "http://daniel.dammienet.nl/banky/",
             "github": "https://github.com/DDammers-MA/banky",
             "html": "fa-brands fa-html5",
             "css": "fa-brands fa-css3-alt",
             "js": "fa-brands fa-js"
-
-            
         },
         {
             "id": 4,
             "Titel": "Color picker",
             "src": "../../assets/img/color.webp",
-            "subText": "na maak van color hunt" ,
+            "subText": "na maak van color hunt",
             "text": " Als opdracht heb ik een website gemaakt waar je 100 verschillende kleuren krijgt waaruit je kunt kiezen. De website biedt de mogelijkheid om een kleur te selecteren voor je projecten. Je kunt eenvoudig op een kleur klikken om de hexcode te kopiëren. ",
             "live": "http://daniel.dammienet.nl/colorPicker/",
             "github": "https://github.com/DDammers-MA/color-picker",
             "html": "fa-brands fa-html5",
             "css": "fa-brands fa-css3-alt"
-         
-            
         },
         {
             "id": 5,
             "Titel": "van Gogh museum",
             "src": "../../assets/img/gogh.webp",
-              "subText": "na maken webstie van het van Gogh museum" ,
+            "subText": "na maken webstie van het van Gogh museum",
             "text": " Als opdracht moesten we zelf een museum uitkiezen dat we vervolgens zelf probeerden na te bouwen. Voor de website moesten we een interactieve pagina maken waarmee je door de kamer kunt navigeren. Dit was de allereerste front-end opdracht waaraan ik heb gewerkt. ",
             "live": "http://daniel.dammienet.nl/museum%20online/",
             "github": "https://github.com/DDammers-MA/Online-museum",
             "html": "fa-brands fa-html5",
             "css": "fa-brands fa-css3-alt",
             "js": "fa-brands fa-js"
-   
-            
         },
         {
             "id": 6,
             "Titel": "Collection of Happiness",
             "src": "../../assets/img/happy.webp",
-            "subText": "een padcast website" ,
+            "subText": "een padcast website",
             "text": " De opdracht was om een website te maken voor het beluisteren van podcasts genaamd 'Collection Of Happiness'. Deze website geeft de gebruiker de mogelijkheid om aan de linkerkant een selectie van podcasts te kiezen, waarvan de geselecteerde podcast de juiste informatie aan de rechterkant weergeeft.",
             "live": "http://daniel.dammienet.nl/happiness/",
             "github": "https://github.com/DDammers-MA/collection-of-happiness",
             "html": "fa-brands fa-html5",
             "css": "fa-brands fa-css3-alt",
             "js": "fa-brands fa-js"
-       
-            
         },
         {
             "id": 7,
             "Titel": "encrypter/decrypter",
             "src": "../../assets/img/lock.webp",
-            "subText": "caesar type encryption/decrypter" ,
+            "subText": "caesar type encryption/decrypter",
             "text": " Dit is een website waarmee je Caesar-codering kunt versleutelen en ontsleutelen. Aan de linkerzijde is er een tekstinvoerveld waarmee je tekst kunt versleutelen om ervoor te zorgen dat niemand de tekst kan herkennen. Aan de rechterzijde is er een ontsleutelingsveld waarmee je de versleutelde tekst kunt decoderen. ",
             "live": "http://daniel.dammienet.nl/encryoter/",
             "github": "https://github.com/DDammers-MA/encrypter-decrypter",
             "html": "fa-brands fa-html5",
             "css": "fa-brands fa-css3-alt",
             "js": "fa-brands fa-js"
-       
-            
         },
         {
             "id": 8,
             "Titel": "Doesburg coaching",
             "src": "../../assets/img/stop.webp",
-            "subText": "stress stoplicht voor Doesburg coaching" ,
+            "subText": "stress stoplicht voor Doesburg coaching",
             "text": " In groepjes van 3 moesten wij allemaal een specifiek onderdeel voor de website ontwikkelen. Mijn taak was om een stressschema te maken waarin gebruikers hun gevoelens konden registreren en uitleggen waarom ze zich op een bepaalde manier voelden. Deze informatie kon vervolgens worden besproken met een live coach. ",
             "live": "http://daniel.dammienet.nl/stressSchema/",
             "github": "https://github.com/MatthewWillems/DeepDive/tree/main/stressSchema",
             "html": "fa-brands fa-html5",
             "css": "fa-brands fa-css3-alt",
             "js": "fa-brands fa-js"
-
-            
         },
         {
             "id": 9,
             "Titel": "Make it rain",
             "src": "../../assets/img/stream.webp",
-            "subText": "een na maak steaming website" ,
+            "subText": "een na maak steaming website",
             "text": " Voor dit project heb ik samengewerkt met een klasgenoot. We hadden de vrijheid om onze eigen keuzes te maken. Mijn klasgenoot en ik besloten om onze eigen streamingwebsite genaamd 'SlyStream' te bouwen. Voor dit project moesten we PHP leren om een database te kunnen gebruiken. ",
             "live": "http://daniel.dammienet.nl/slystream/php/home.php",
             "github": "https://github.com/DDammers-MA/slystream",
@@ -124,23 +107,18 @@
             "css": "fa-brands fa-css3-alt",
             "js": "fa-brands fa-js",
             "php": "fa-brands fa-php"
-            
         },
         {
             "id": 10,
             "Titel": "yubtub",
             "src": "../../assets/img/yubtub.webp",
-            "subText": "een youtube clone" ,
+        "subText": "een youtube clone",
             "text": " De opdracht was om een YouTube-kloon te maken op basis van een wireframe. De opdracht was om een website te ontwikkelen waar gebruikers opmerkingen kunnen toevoegen en video's kunnen bekijken, en ook om tussen video's te kunnen schakelen. Deze website is ontwikkeld met behulp van objectgeoriënteerde JavaScript (OOP).",
             "live": "http://daniel.dammienet.nl/yubtub/",
             "github": "https://github.com/DDammers-MA/yubtub",
             "html": "fa-brands fa-html5",
             "css": "fa-brands fa-css3-alt",
             "js": "fa-brands fa-js"
-        
-            
         }
     ]
-    
-
 }

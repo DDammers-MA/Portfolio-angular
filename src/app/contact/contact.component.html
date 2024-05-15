@@ -4,22 +4,22 @@
     <h1 class="main__firstArticleTitle">contact me</h1>
 
         <form class="main__articleContactForm" [formGroup]="form" (ngSubmit)="send()">
-            <label class="main__articleContactFormLabel">Name</label>
-            <input class="main__articleContactFormInput" placeholder="name" type="text" name="user_name" formControlName="from_name" required>
+            <label class="main__articleContactFormLabel">Naam</label>
+            <input class="main__articleContactFormInput" placeholder="Naam" type="text" name="user_name" formControlName="from_name" required>
         
             <label class="main__articleContactFormLabel">Email</label>
-            <input class="main__articleContactFormInput" placeholder="email" type="email" name="user_email" formControlName="from_email" required>
+            <input class="main__articleContactFormInput" placeholder="Email" type="email" name="user_email" formControlName="from_email" required>
         
-            <label class="main__articleContactFormLabel">Phone Number</label>
-            <input class="main__articleContactFormInput" placeholder="phone number" type="text" name="user_phone" formControlName="phone" required>
+            <label class="main__articleContactFormLabel">Telefoonnummer</label>
+            <input class="main__articleContactFormInput" placeholder="Telefoonnummer" type="text" name="user_phone" formControlName="phone" required>
         
-            <label class="main__articleContactFormLabel">Subject</label>
-            <input class="main__articleContactFormInput" placeholder="subject" type="text" name="Subject" formControlName="subject" required>
+            <label class="main__articleContactFormLabel">Onderwerp</label>
+            <input class="main__articleContactFormInput" placeholder="Onderwerp" type="text" name="Subject" formControlName="subject" required>
         
-            <label class="main__articleContactFormLabel">Message</label>
-            <textarea class="main__articleContactFormInput" placeholder="message" name="message" formControlName="message" required></textarea>
+            <label class="main__articleContactFormLabel">Bericht</label>
+            <textarea class="main__articleContactFormInput" placeholder="Bericht" name="message" formControlName="message" required></textarea>
         
-            <input class="main__articleContactFormSubmit" type="submit" value="Send">
+            <input class="main__articleContactFormSubmit" type="submit" value="Verstuur">
         </form>
         
         </article>

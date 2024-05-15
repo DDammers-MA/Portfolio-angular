@@ -3,14 +3,15 @@
     height: auto;
 
     &__firstArticle {
-     
-        height: 85vh;
+        background-image: url(../../assets/img/home.webp);
+        object-fit: contain;
+        height: 100vh; /* Consider changing this to a fixed height for better stability */
         display: grid;
         grid-template-columns: 40% 60%;
-    
         align-items: center;
         justify-content: center;
     }
+
 
     &__contactButton{
         background: #DA0037;
@@ -39,13 +40,13 @@
         align-items: center;
         justify-content: flex-end;
     }
-
     &__firstArticleFigure {
-        height: 25rem;
+        height: 25rem; /* Consider specifying width and height for better stability */
+        width: 25rem;
     }
-
     &__firstArticleFigureImg {
-        height: 100%;
+        height: 100%; /* Consider specifying width and height for better stability */
+        width: 100%; /* Ensure images fill their containers */
         border-radius: 50%;
         border: 0.2rem solid #444444;
     }
@@ -111,7 +112,7 @@
     
     &__thirdArticle {
         height: auto;
-      background: black;
+        background: #131313;
       color: #F5EDED;
       overflow-x: hidden;
     }
@@ -120,7 +121,8 @@
 
     &__fourthArticle {
         height: auto;
-        background: linear-gradient(#F5EDED,90%, white);
+
+        background: #292929;
         overflow-x: hidden;
     }
 
@@ -128,7 +130,8 @@
 
         padding: 4rem;
         height: 15rem;
-        background: #F5EDED;
+       background: #292929;
+        color: #DA0037;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -144,6 +147,10 @@
         display: flex;
         align-items: center;
        justify-content: center;
+    }
+
+    &__fifthArticle{
+        background: #131313;
     }
 
 }
@@ -213,7 +220,7 @@
     
 
         &__rightSectionTyping {
-            font-size: 1.8rem;
+            font-size: 100%;
             font-weight: 600;
         }
 
@@ -231,10 +238,37 @@
             margin-bottom: 2rem;
         }
 
+        &__contactButton{
+      &--CTA{
+        height: 5rem;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+      }
+    
+        }
+
     
 
+        &__callToAction{
+            display: flex;
+            align-items: center;
+           justify-content: center;
+           flex-direction: column;
 
-
+            padding: 1.5rem;
+        
+           background: #292929;
+            color: #DA0037;
+   
+        }
+    
+        &__callToActionTitle{
+            font-size: 180%;
+        
+        }
     }
 
 }

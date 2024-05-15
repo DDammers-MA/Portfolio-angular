@@ -4,9 +4,9 @@
 
 
     <swiper-slide class="main__fourthArticleSliderSlide" *ngFor="let data of data" >
-        <a [routerLink]="['/project', data.id]">
+        <a class="main__fourthArticleSliderSlideLink" [routerLink]="['/project', data.id]">
         <li class="main__fouthArticleListItem" >
-            <img [src]="data.src" alt="">
+            <img class="main__fourthArticleListeImg" [src]="data.src" alt="">
             <h3 class="main__name">{{ data.Titel}}</h3>
             <p class="main__fouthArticleListItemText">{{ data.subText}}</p>
 
